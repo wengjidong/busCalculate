@@ -1,0 +1,203 @@
+@import "../theme/index.css";
+@import "../alibabaFont/alibaba-font.css";
+
+#app {
+  font-family: AlibabaPuHuiTi;
+}
+li {
+  list-style-type: none;
+}
+
+.layout-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  .main-container {
+    position: relative;
+    height: 100%;
+    margin-left: 52px;
+    background-color: #E7EBEE;
+    font-size: 16px;
+    .layout-container {
+      display: flex;
+      height: 100vh;
+      .layout-main {
+        overflow-x: hidden;
+        .layout-main-content {
+          padding: 58px 0 32px;
+
+          .fh-main-header {
+            position: fixed;
+            right: 0;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            padding: 0 15px;
+            min-height: 48px;
+            box-sizing: border-box;
+            z-index: 500;
+            box-shadow: 0px 2px 8px 0px rgba(12, 109, 171, 0.5);
+
+            .page-name {
+              float: left;
+              line-height: 48px;
+              margin-right: 15px;
+            }
+
+            .el-row {
+              line-height: 48px;
+              min-height: 48px;
+            }
+
+            .query-row {
+              line-height: 48px;
+              min-height: 48px;
+              td {
+                .query-name {
+                  padding-right: 10px;
+                }
+                display: inline-block;
+                margin-right: 30px;
+              }
+
+              td:nth-last-child(3) {
+                margin-right: 0px;
+              }
+            }
+
+            .el-button {
+              margin-left: 10px;
+            }
+
+            .el-input {
+              width: 208px;
+            }
+            .short-input,
+            .short-input .el-input {
+              width: 118px;
+            }
+          }
+
+          .page-model-shadow {
+            background: #fff;
+            border-radius: 4px;
+            box-shadow: 0px 0px 8px 0px rgba(12, 109, 171, 0.5);
+            .el-textarea.is-disabled .el-textarea__inner{
+              color: #000;
+            }
+            .el-input.is-disabled .el-input__inner{
+              color: #000;
+            }
+          }
+          .el-main-report {
+            background: #fff;
+            margin: 0 10px 10px;
+            padding: 15px !important;
+          }
+          .el-pagination {
+            padding-top: 10px;
+          }
+        }
+      }
+      .nav-menu {
+        .el-scrollbar {
+          height: calc(100vh - 40px);
+        }
+        i {
+          font-size: 16px;
+        }
+        span {
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}
+/**
+ 模块标题
+ */
+.model-header{
+  margin-bottom: 5px;
+  height: 32px;
+  line-height: 32px;
+  color: #fff;
+  .model-title{
+    font-size: 18px;
+  }
+  .model-small-title{
+    font-size: 16px;
+  }
+  .el-button{
+    float: right;
+    font-size: 14px !important;
+    padding: 5px 0px !important;
+    min-width: 0px !important;
+    color: #fff;
+  }
+}
+.model-small-header{
+  margin-bottom: 5px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #3486DA;
+  padding: 0 15px;
+  color: #fff;
+  .model-small-title{
+    font-size: 16px;
+  }
+  .el-button{
+    float: right;
+    line-height: 30px;
+    font-size: 14px !important;
+    padding: 10px 0px !important;
+    min-width: 0px !important;
+  }
+  .el-button--text{
+    color: #fff;
+  }
+}
+/**
+去掉高德地图LOGO
+ */
+.amap-logo{
+  display: none!important;
+  opacity: 0;
+}
+.amap-copyright{
+  visibility:hidden!important;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: rgba(240, 240, 241, 1);
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 8px rgba(187, 215, 235, 0.58);
+  background-color: #fff;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0);
+  background-color: #dddee0;
+  border-radius: 8px;
+}
+
+/*messagebox 【确定】【取消】位置互换*/
+.el-message-box__btns {
+  height: 32px;
+  .el-button {
+    height: 100%;
+  }
+  .el-button--small {
+    float: right;
+    margin-left: 10px;
+  }
+}

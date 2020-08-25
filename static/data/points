@@ -1,0 +1,170 @@
+[
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "1",
+    "station_1": "南门换乘中心",
+    "station_2": "薛河南",
+    "distance_avg": "357.955277"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "2",
+    "station_1": "薛河南",
+    "station_2": "薛河北",
+    "distance_avg": "865.327928"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "3",
+    "station_1": "薛河北",
+    "station_2": "张小郢",
+    "distance_avg": "683.689912"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "4",
+    "station_1": "张小郢",
+    "station_2": "晨风苑",
+    "distance_avg": "455.176543"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "5",
+    "station_1": "晨风苑",
+    "station_2": "金休路口",
+    "distance_avg": "765.250988"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "6",
+    "station_1": "金休路口",
+    "station_2": "江淮站",
+    "distance_avg": "445.116088"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "7",
+    "station_1": "江淮站",
+    "station_2": "南七里站北",
+    "distance_avg": "837.449907"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "8",
+    "station_1": "南七里站北",
+    "station_2": "机研所",
+    "distance_avg": "191.883886"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "9",
+    "station_1": "机研所",
+    "station_2": "科大东区",
+    "distance_avg": "307.290567"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "10",
+    "station_1": "科大东区",
+    "station_2": "中国科技大学",
+    "distance_avg": "308.077225"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "11",
+    "station_1": "中国科技大学",
+    "station_2": "安医附院",
+    "distance_avg": "191.162716"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "12",
+    "station_1": "安医附院",
+    "station_2": "稻香楼",
+    "distance_avg": "850.46376"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "13",
+    "station_1": "稻香楼",
+    "station_2": "廻龙桥",
+    "distance_avg": "531.351915"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "14",
+    "station_1": "廻龙桥",
+    "station_2": "飞凤街",
+    "distance_avg": "690.480522"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "15",
+    "station_1": "飞凤街",
+    "station_2": "四牌楼",
+    "distance_avg": "849.847317"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "16",
+    "station_1": "四牌楼",
+    "station_2": "小东门",
+    "distance_avg": "560.142472"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "17",
+    "station_1": "小东门",
+    "station_2": "大东门",
+    "distance_avg": "528.216027"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "18",
+    "station_1": "大东门",
+    "station_2": "胜明路口",
+    "distance_avg": "824.716401"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "19",
+    "station_1": "胜明路口",
+    "station_2": "元一时代广场",
+    "distance_avg": "219.960687"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "20",
+    "station_1": "元一时代广场",
+    "station_2": "胜利广场",
+    "distance_avg": "819.280717"
+  },
+  {
+    "line_id": "1",
+    "direct_id": "1",
+    "station_seq": "21",
+    "station_1": "胜利广场",
+    "station_2": "合肥火车站",
+    "distance_avg": "493.081866"
+  }
+]
